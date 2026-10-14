@@ -5,7 +5,7 @@ func greetUser(name: String) -> String {
 }
 print(greetUser(name: "Nariman"))
 
-var optionalName: String? = "Alice"
+var optionalName: String? = "Tima"
 if let unwrappedName = optionalName {
     print("Unwrapped name is: \(unwrappedName)")
 } else {
@@ -60,7 +60,7 @@ class Student {
     }
 }
 
-let student: Student? = Student(name: "John", grade: 95)
+let student: Student? = Student(name: "Nari", grade: 95)
 if let currentGrade = student?.grade {
     print("\(student?.name ?? "Student") has grade: \(currentGrade)")
 }
