@@ -1,0 +1,30 @@
+# Favorites List Lab — UITableView & Custom Cells (Sports Theme)
+
+A iOS application built with UIKit showcasing a custom favorites list using `UITableView`, custom table view cells (`UITableViewCell`), prototype cells, Auto Layout constraints, and SF Symbols.
+
+---
+
+
+---
+
+## 🛠 Technical Requirements & Features
+
+- **Theme:** Sports & Martial Arts (Football, Boxing, Basketball, Judo, etc.)[cite: 2].
+- **Data Model:** Custom `FavoriteItem` struct containing at least 20 unique sport items, each with:
+  - Title & Subtitle[cite: 2]
+  - Custom System Image Name (`SF Symbols`) / Asset image[cite: 2]
+  - Rating from 0 to 5[cite: 2]
+- **Custom Cell:** Implemented a dedicated `FavoriteCell` subclass mapped to the Prototype Cell in `Main.storyboard`.
+- **UI Architecture:**
+  - `UIImageView` for sports icons
+  - `UILabel` for displaying titles and descriptions
+  - `UIStackView` containing 5 dynamic star rating indicators
+- **Auto Layout:** Fully designed in `Main.storyboard` with zero layout warnings or conflicts across all screen sizes.
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
